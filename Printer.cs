@@ -16,19 +16,15 @@ namespace failing_code
             
             if (foo && bar)
             {
-                _output.Write("FooBar");
+                _output.WriteLine("FizzBuzz");
             }
             else if (foo)
             {
-                _output.Write("Foo");
-            }
-            else if (bar)
-            {
-                _output.Write("Bar");
+                _output.WriteLine("Fizz");
             }
             else
             {
-                _output.Write("----");
+                _output.WriteLine("Buzz");
             }
         }
     }
